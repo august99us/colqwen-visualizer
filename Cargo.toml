@@ -1,0 +1,15 @@
+[package]
+name = "colqwen-visualizer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+cairo-rs = { version = "0.20.10", features = ["png"] }
+camino = "1.1.9"
+candle-core = { version = "0.9.0", features = ["cuda"] }
+candle-nn = { version = "0.9.0", features = ["cuda"] }
+candle-transformers = { version = "0.9.0", features = ["cuda"] }
+iced = "0.13.1"
+image = "0.25.6"
+poppler-rs = "0.24.1"
